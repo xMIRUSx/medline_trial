@@ -11,7 +11,7 @@ create table parts(
 
 create table orders(
 	  id integer primary key
-	, part_id integer references public.parts(id)
+	, part_id integer references parts(id)
 	, qty integer
 	, ship_dt date
 	, receive_dt date
