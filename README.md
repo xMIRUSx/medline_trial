@@ -7,6 +7,7 @@ DB structure:
   1) DB name = "goods"
   
   2) tables:
+    
     create table parts(
         id integer primary key
       , name varchar(127)
